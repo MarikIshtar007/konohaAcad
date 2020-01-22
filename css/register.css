@@ -1,0 +1,32 @@
+body {
+  background: url('../images/stone_face_bg.jpg') no-repeat center center fixed;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+}
+
+img{
+  height: 350px;
+}
+
+.spacer{
+  margin:2px;
+}
+
+#content{
+  text-align: center;
+  padding:3%;
+}
+
+.mainText{
+  color: white;
+  text-shadow:-1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
