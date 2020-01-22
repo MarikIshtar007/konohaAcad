@@ -7,100 +7,67 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/index_page.css">
 
-    <title>Konoha National Academy - Placements Site</title>
+    <title>Home - Konoha National Academy</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index_page.html">
+    <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    KNA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-  	<div class="container">
-    	<div class="row">
-      		<div class="col-lg-12" id="content">
-        		<div class="mainText">
-          			<h1>Welcome to The Placements Portal!</h1>
-	    			<h3>Are you ready to test your skills out there in the real world?</h3>
-        		</div>
-      		</div>
-    	</div>
-	</div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Placements Block</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+       <ul class="navbar-nav ml-auto">
+        <li class="nav-item r1"><a class="nav-link" href="#">Update Details</a></li>
+        <li class="nav-item r1"><a class="nav-link" href="#">Log out</a></li>
+      </ul>
+      </div>
+    </nav>
 
-  <div class="container">
-  	<div class="row">
-  		<div class="col-lg-6 gms">
-  			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			  <ol class="carousel-indicators">
-			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-			    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			  </ol>
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img class="d-block w-100" src="https://vignette.wikia.nocookie.net/naruto/images/4/49/Konoha_11_Part_I.png/revision/latest?cb=20150729211344" alt="The Konoha 11">
-			    	<div class="carousel-caption" alt="First slide">
-			      	<h3 class="cText">The Konoha 11</h3>
-			        <p class="cText">The best and top-tier Ninjas of Konoha studied here!</p>
-			    	</div>
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="https://vignette.wikia.nocookie.net/naruto/images/2/27/Minato_becomes_hokage.png/revision/latest?cb=20141026170220" alt="Minato Namikaze - The 4th Hokage">
-			    	<div class="carousel-caption">
-			        <h3 class="cText">The Yellow Flash</h3>
-			        <p class="cText">Minato, 4th Hokage, was a prodigy at Konoha Academy.</p>
-			    	</div>
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" src="https://i.ytimg.com/vi/Gj4XNafrDrQ/maxresdefault.jpg" alt="Third slide">
-			      <div class="carousel-caption">
-			      	<div class="container">
-			        <h3 class="cText">Best Jonins to teach in the World!</h3>
-			        <p class="cText">Teachers such as Kakashi, Might Guy and Asuma Sarutobi!!</p></div>
-			      </div>
-			    </div>
-			  </div>
-			  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Previous</span>
-			  </a>
-			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="sr-only">Next</span>
-			  </a>
-			</div>
-  		</div>
-  		<div class="col-lg-6 gms">
-  			<div class="container">
-  				<div class="row">
-  					<div class="col-lg-10">
-  						<div class="container myform">
-  				<form action="index_page.html" method="post">
-			        <div class="form-group">
-			            <label for="inputEmail"><strong>Email</strong></label>
-			            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
-			        </div>
-			        <div class="form-group">
-			            <label for="inputPassword"><strong>Password</strong></label>
-			            <input type="password" class="form-control" id="inputPassword" placeholder="Password" required>
-			        </div>
-			        <div class="checkbox">
-			            <label><input type="checkbox"><strong> Remember me</strong></label>
-			        </div>
-			        	<button type="submit" class="btn btn-primary" style="letter-spacing: 1px;"><strong>Login</strong></button>
-			        <div>
-			        	<label>Don't have an account yet?</label>
-			        	<a href="create_account.html" id="caccount"><strong>Create Account</strong></a>
-			    	</div>
-			    	<div>
-			    		<a href="#"><strong>Forgot Account/Password</strong></a>
-			    	</div>
-			    </form>
-</div>
-</div>
-</div>
-  			</div>
-  		</div>
-  	</div>
-  </div>
+    <div class="jumbotron">
+      <h1 class="display-5" style="text-align: center;">Become a Genin, then a Chunin! On to greatness....!!!</h1>
+      <p style="font-size: 1.3em;">Konoha Academy provides the opportunity to showcase your talents and skyrocket your Career!</p>
+      <hr style="border-width: 2px; color:black; border-style: solid;">
+   
+    </div>
 
+    <div class="container">
+            <div class="box" style="text-align: center;">
+              <h5><a href="https://naruto.fandom.com/wiki/Sunagakure" style="color:#000000; text-decoration: underline;">Village Hidden in the Sand</a></h5>
+              <img src="https://vignette.wikia.nocookie.net/naruto-mighty-2/images/4/40/245487-sunagakure_symbol_super.png/revision/latest?cb=20190428171409" class="img-hi">
+              <hr class="style-two">
+              <p>It's the hidden village of the Land of Wind, with the Kazekage as its leader. Surrounded by desert offers the village a natural deterrent against invasion.</p>
+              <button class=" btn btn-default btn-primary">APPLY</button>
+            </div>
+
+            <div class="box" style="text-align: center;">
+              <h5><a href="https://naruto.fandom.com/wiki/Kirigakure" style="color:#000000; text-decoration: underline;">Village Hidden in the Mist</a></h5>
+              <img src="https://vignette.wikia.nocookie.net/naruto/images/e/e5/Kirigakure_Symbol.svg/revision/latest?cb=20090830222755" class="img-hi">
+              <hr class="style-two">
+              <p>It's the hidden village of the Land of Water, with the Mizukage as its leader. Surrounded by a thick mist, with several mountains in the background, making it difficult to find by foreigners..</p>
+              <button class=" btn btn-default btn-primary">APPLY</button>
+            </div>
+            
+            <div class="box" style="text-align: center;">
+              <h5><a href="https://naruto.fandom.com/wiki/Sunagakure" style="color:#000000; text-decoration: underline;">Village Hidden by the Clouds</a></h5>
+              <img src="https://vignette.wikia.nocookie.net/naruto/images/c/c9/Kumogakure_Symbol.svg/revision/latest?cb=20110124122229" class="img-hi">
+              <hr class="style-two">
+              <p>It was founded by the First Raikage It is the hidden village in the Land of the Lightning. Over time, it has come to maintain stable relations with not just Konoha but also the other Allied Nations.</p>
+              <button class=" btn btn-default btn-primary">APPLY</button>
+            </div>
 
 
     <!-- Optional JavaScript -->

@@ -1,0 +1,54 @@
+#content{
+	text-align: center;
+	padding:3%;
+}
+
+body {
+background: url('../images/stone_face_bg.jpg') no-repeat center center fixed;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.mainText{
+	color: white;
+	text-shadow:-1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,
+    -2px -2px 0 #000000,
+    2px -2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px 2px 0 #000000;
+}
+
+.imgs{
+	width: 100%;
+}
+
+.cText{
+	font-size: 1.0em;
+	text-align: left;
+	text-shadow:-1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+.myform{
+	position: relative;
+	width:90%;
+	margin: 0 auto;
+	background: rgba(130, 130, 130, .3);
+	border-radius: 15px;
+}
+
+.caccount{
+	text-shadow:-1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+.gms{
+  margin-top: 50px;
+}
